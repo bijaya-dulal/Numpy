@@ -1,0 +1,18 @@
+Numpy is the fundamental package for scientific computing in python.
+Numpy is a Python library that provides a multidimensional array object, various derived objects
+
+Numpy array?
+is a grid of values and it contains information about the raw data, how to locate an element, and how to interpret an element.
+
+Advantage of  NumPy array over python list.
+> consume less memory.
+> fast as compared to the python list.
+> convenient to use.
+
+list = [1,2,3,4]
+array = [1234]
+
+why NumPy?
+
+wide variety  of mathematical of Numpy
+useful for ml and data science
