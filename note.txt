@@ -16,3 +16,17 @@ why NumPy?
 
 wide variety  of mathematical of Numpy
 useful for ml and data science
+
+NumPy array vs python list 
+ 1. Data type storage 
+    It can have  multiple data types in a single list.
+ 2. Importing module
+        no any module is needed for list
+ 3. Numerical operation
+         fast in Numpy array( can be implement as matrix )
+ 4. Modification capabilities
+         Modification is fast in list
+
+ 5. Numpy use less memory
+ 6. Numpy array is convenient to use        
+      
