@@ -30,3 +30,5 @@ NumPy array vs python list
  5. Numpy use less memory
  6. Numpy array is convenient to use        
       
+
+NumPys primary object is the `numpy.ndarray` commonly referred to as an array.
