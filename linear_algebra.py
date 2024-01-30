@@ -14,3 +14,10 @@ result_alternative = A @ B
 
 print(result)
 print(result_alternative)
+
+# 2. Matrix Inversion 
+'''use `np.linalg.inv(matrix)`'''
+A = np.array([[1, 2], [3, 4]])
+inverse_A = np.linalg.inv(A)
+print('inverse of matrix')
+print(inverse_A)
