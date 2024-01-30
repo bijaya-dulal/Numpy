@@ -21,3 +21,9 @@ A = np.array([[1, 2], [3, 4]])
 inverse_A = np.linalg.inv(A)
 print('inverse of matrix')
 print(inverse_A)
+
+# 3. Determinant
+A = np.array([[1, 2], [3, 4]])
+determinant_A = np.linalg.det(A)
+print("determinant") 
+print(determinant_A)
