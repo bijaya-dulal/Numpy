@@ -34,3 +34,11 @@ eigenvalues, eigenvectors = np.linalg.eig(A)
 
 print("Eigenvalues:", eigenvalues)
 print("Eigenvectors:", eigenvectors)
+
+#solving the linera equqtions
+A = np.array([[2, 3,4], [1, -1,-2],[1,1,1]]) #in the form of [x,y,z]
+b = np.array([8, -1,5])
+
+x = np.linalg.solve(A, b)
+print("solution of  A and b",x)
+
