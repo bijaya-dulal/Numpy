@@ -22,6 +22,7 @@ print(arr_3d[0,1,1])#this will access 5
 mul_arr = arr_2d * 2
 
 #uninitialise array
+print('uninitialise array')
 empty_arr = np.empty((3,2))
 print(empty_arr)
 
@@ -39,7 +40,7 @@ identity_matrix = np.eye(3)
 print(identity_matrix)
 
 #arrannge array (1D)
-arr_range = np.arange(0, 10, 2)  # Starts from 0, stops before 10, step of 2
+arr_range = np.arange(0, 10, 2)  # Starts from 0, stops before 10, jump two step 2
 print(arr_range)
 
 #Linespace

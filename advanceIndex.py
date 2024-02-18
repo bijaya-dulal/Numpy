@@ -22,8 +22,8 @@ print(result_2d) #this should print [2 6 7]
 # 2. Boolean indexing
 ''' Boolean indexing involves using boolean arrays to filter elements. 
 It is particularly useful when you want to select elements based on a certain condition.'''
-arr = np.array([1, 2, 3, 4, 5])
-condition = arr > 2 
+arr = np.array([1, 2, 3, 4,0, 5])
+condition = arr > 2 #by value not by index
 
 result = arr[condition] # [3 4 5]
 print(result)
