@@ -42,3 +42,15 @@ b = np.array([8, -1,5])
 x = np.linalg.solve(A, b)
 print("solution of  A and b",x)
 
+
+#singular value dcomposition(SVD)
+A = np.array([[1, 2], [3, 4], [5, 6]])
+U, S, V = np.linalg.svd(A)
+
+print("U:", U)
+print("")
+print("S:", S)
+print("")
+print("V:", V)
+
+
