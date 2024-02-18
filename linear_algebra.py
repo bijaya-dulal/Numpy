@@ -27,3 +27,10 @@ A = np.array([[1, 2], [3, 4]])
 determinant_A = np.linalg.det(A)
 print("determinant") 
 print(determinant_A)
+
+#eigne value and eigen vector
+A = np.array([[1, 2], [2, 3]])
+eigenvalues, eigenvectors = np.linalg.eig(A)
+
+print("Eigenvalues:", eigenvalues)
+print("Eigenvectors:", eigenvectors)
