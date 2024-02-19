@@ -1,0 +1,1 @@
+This repositories is used to learn Numpy from ChatGPT. 
