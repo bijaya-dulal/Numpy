@@ -35,13 +35,13 @@ NumPys primary object is the `numpy.ndarray` commonly referred to as an array.
 
 -------------------------******************---------------------------
  what is next step ?
-< Universal Functions (ufuncs)
-< Statistical Functions
-< File Input/Output
+< Universal Functions (ufuncs) done
+< Statistical Functions done
+< File Input/Output 
 < NumPy's Random Module
 < Optimizing NumPy Code
 < NumPy's C API
-< NumPy's Documentation and Resources
+< NumPy's Documentation and Resources.
 
 
 
