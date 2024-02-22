@@ -23,3 +23,13 @@ We use np.savetxt() to write the data array to a text file named
 insert_data.txt. We specify the format ('%d' for integers),
  and the delimiter ('\t' for tab-separated values).
 """
+
+# Open the file in append mode
+with open('insert_data.txt', 'a') as file:
+    # Write new data to the file
+    file.write("New data line 1\n")
+    file.write("New data line 2\n")
+    # You can write multiple lines or a single line as needed
+with open('insert_data.txt', 'r') as file:
+    for line in file:
+        print(line.strip())  # strip() removes any leading or trailing whitespace
