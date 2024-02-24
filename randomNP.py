@@ -1,5 +1,7 @@
 import numpy as np
 
+# Set seed for reproducibility .ie, every thime it gernerates the same number 
+np.random.seed(42)
 
 # Generate a random array of shape (3, 3) from a standard normal distribution
 random_array = np.random.randn(3, 3)
