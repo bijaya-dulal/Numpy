@@ -55,6 +55,6 @@ filtered_image = new_filter_on_grayscale(image)
 plt.subplot(2, 2, 4)
 plt.imshow(filtered_image, cmap='gray')
 plt.title('filtered Image')
-
+plt.close()
 #user interaction
- # in anothe file
+#in another file
