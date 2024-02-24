@@ -17,5 +17,11 @@ print("\nRandom Integer:", random_int)
 
 # Shuffle a sequence
 sequence = [1, 2, 3, 4, 5]
+#permutation function return the new shuffled array
+permuted_arr = np.random.permutation(sequence)
+print("Permuted array (new array):", permuted_arr)
+
+print('original sequence',sequence)
+#shuffle function shuffle with in the list or array
 np.random.shuffle(sequence)
 print("\nShuffled Sequence:", sequence)
