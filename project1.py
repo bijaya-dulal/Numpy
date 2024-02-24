@@ -1,6 +1,9 @@
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
+import tkinter as tk
+from tkinter import filedialog
+
 
 #reading the image
 image = cv2.imread('image1.jpg')
@@ -52,5 +55,6 @@ filtered_image = new_filter_on_grayscale(image)
 plt.subplot(2, 2, 4)
 plt.imshow(filtered_image, cmap='gray')
 plt.title('filtered Image')
-plt.show()
+
 #user interaction
+ # in anothe file
